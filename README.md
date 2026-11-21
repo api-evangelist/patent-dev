@@ -1,4 +1,4 @@
-# patent-dev
+# Patent Connector
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-patent-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://patent.dev/
+Patent Connector provides an advanced MCP server and CLI for accessing patent, trademark, and design data directly from official offices. It offers comprehensive coverage, including USPTO trademark decisions and office actions since 2001, with regular updates and a focus on privacy and GDPR compliance. The service is operated by Funktionslust GmbH in Munich, Germany, and integrates with AI assistants like Claude and ChatGPT.
+
+**Areas:** Patents · Trademarks · Designs · API · CLI
+
+## Patent Connector on APIs.io
+
+Everything profiled for Patent Connector is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/patent-dev/](https://apis.io/providers/patent-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Patent Connector Tools API](https://apis.io/apis/patent-dev/patent-dev-tools-api/) — The tools API from Patent Connector — 59 operation(s) for tools.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Patent Connector Agentic Access](https://apis.io/agentic-access/patent-dev/patent-dev-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Patent Dev Context](https://apis.io/jsonld/patent-dev/patent-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Patent Connector API Rules](https://apis.io/rules/patent-dev/patent-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Patent Connector Authentication](https://apis.io/security/patent-dev/patent-dev-authentication/)
+- [Patent Connector Domain Security](https://apis.io/security/patent-dev/patent-dev-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://patent.dev/)
+- [Documentation](https://patent.dev/about/)
+- [Getting started](https://patent.dev/patent-connector-cli/)
+- [API reference](https://patent.dev/patent-connector/)
+- [Support](https://patent.dev/imprint/)
+- [Privacy policy](https://patent.dev/privacy-policy/)
+- [GitHub](https://github.com/patent-dev)
+
+## API Evangelist rating
+
+**Kin Score 42.4** — developing · rubric 0.27.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 49.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 10.5 |
+
+**Agent readiness 58.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/patent-dev/](https://apis.io/providers/patent-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Patent Connector: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/patent-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
